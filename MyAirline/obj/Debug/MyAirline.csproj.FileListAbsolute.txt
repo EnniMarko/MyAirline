@@ -1,1 +1,6 @@
 C:\Users\Viktor\Documents\GitHub\MyAirline\MyAirline\bin\Debug\MyAirline.exe.config
+C:\Users\Viktor\Documents\GitHub\MyAirline\MyAirline\bin\Debug\MyAirline.exe
+C:\Users\Viktor\Documents\GitHub\MyAirline\MyAirline\bin\Debug\MyAirline.pdb
+C:\Users\Viktor\Documents\GitHub\MyAirline\MyAirline\obj\Debug\MyAirline.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Documents\GitHub\MyAirline\MyAirline\obj\Debug\MyAirline.exe
+C:\Users\Viktor\Documents\GitHub\MyAirline\MyAirline\obj\Debug\MyAirline.pdb

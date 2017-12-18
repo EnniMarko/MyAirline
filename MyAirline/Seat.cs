@@ -10,9 +10,29 @@ namespace MyAirline
 //пассажир.
 // КАК СДЕЛАТЬ, ЧТОБЫ НЕЛЬЗЯ БЫЛО "ПЕРЕЗАПИСАТЬ ЧЕЛОВЕКА?"
 
-    class Seat
+    public class Seat
     {
-        public Passenger PassangerOnSeat { get; set; }
-        public int MyProperty { get; set; }
+        public Seat(ClassesOfService _service)
+        {
+            Service = _service;
+        }
+        public Seat(ClassesOfService _service, Passenger _passanger)
+        {
+            Service = _service;
+            PassangerOnSeat = _passanger;
+        }
+
+        public bool SetPassanger(Passenger _passanger)
+        {
+            if (PassangerOnSeat == null)
+            {
+                PassangerOnSeat = _passanger;
+                return true;
+            }
+            return false;
+        }
+        public ClassesOfService Service { get; set; }
+        public Passenger PassangerOnSeat;
+        
     }
 }
